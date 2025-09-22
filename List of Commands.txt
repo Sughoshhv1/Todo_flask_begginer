@@ -1,0 +1,22 @@
+heroku login
+
+pip install gunicorn
+pip freeze requirements.txt
+Procfile
+web:gunicorn app:app
+
+git init
+git add .
+git commit -m "Initial commmit"
+
+heroku create todo-codewithharry
+git remote -v
+git push heroku master
+
+
+
+commands
+-> virtual env install
+if there is any exution error when downloading or activating it put the *Set-ExecutionPolicy unrestricted* in powershel as administrator
+
+to deploy Heroku li login madu amele Heroku cli bekandre install madko...........web: gunicorn mundee space bidu amele above steps
