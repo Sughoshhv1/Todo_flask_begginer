@@ -61,14 +61,14 @@ def delete(sno):
     return redirect("/")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)       #port change can be done here
+    app.run(host='0.0.0.0',debug=True)       #port change can be done here
 
 
-import os
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+# import os
+# from flask import Flask
+# from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 
 
